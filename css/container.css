@@ -1,0 +1,63 @@
+main.container {
+  width: 60rem;
+  height: 32rem;
+
+  display: inline-grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  box-shadow: 0 0 20px rgba(110, 110, 110, 0.671);
+}
+
+main.container > section {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.card1 { background-color: var(--card1); }
+.card2 { background-color: var(--card2); }
+.card3 { background-color: var(--card3); }
+
+main.container > section > i { height: 20%; }
+main.container > section > div { height: 70%; }
+main.container > section > span { height: 10%; }
+
+section > div > h1 {
+  color: var(--clr-attention);
+  font-family: var(--fnt-title);
+  font-size: 35px;
+  font-weight: var(--fw2);
+  margin: 0;
+}
+section > div > p {
+  color: var(--clr-para);
+  font-family: var(--fnt-text);
+  font-weight: var(--fw1);
+  line-height: 1.5rem;
+  padding-top: 1rem;
+}
+
+#btn1 { color: var(--card1); }
+#btn1:hover { color: white; }
+
+#btn2 { color: var(--card2); }
+#btn2:hover { color: white; }
+
+#btn3 { color: var(--card3); }
+#btn3:hover { color: white; }
+
+button {
+  font-family: var(--fnt-text);
+  width: 10rem;
+  border: none;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 2rem;
+  transition: linear 0.1s;
+}
+button:hover {
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.2s linear;
+}

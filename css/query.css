@@ -1,0 +1,25 @@
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  main.container {
+    width: 50rem !important;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  main.container {
+    width: 40rem !important;
+  }
+  button {
+    width: 6rem;
+    padding: 5px;
+  }
+}
+
+@media all and (max-width: 480px) {
+	main.container {
+    width: 90vw;
+
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+}

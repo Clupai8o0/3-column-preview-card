@@ -1,0 +1,33 @@
+:root {
+  --fnt-title: 'Big Shoulders Display', cursive;
+  --fnt-txt: 'Lexend Deca', sans-serif;
+
+  --clr-para: hsla(0, 0%, 100%, 0.75);
+  --clr-attention: hsl(0, 0%, 95%);
+
+  --card1: hsl(31, 77%, 52%);
+  --card2: hsl(184, 100%, 22%);
+  --card3: hsl(179, 100%, 13%);
+
+  --fw1: 400;
+  --fw2: 700;
+}
+
+* {
+  /* color: var(--clr-attention); */
+  color: black;
+  font-family: var(--fnt-txt);
+  font-size: 15px;
+  font-weight: var(--fw1);
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: var(--clr-attention);
+
+  display: grid;
+  place-items: center;
+}
