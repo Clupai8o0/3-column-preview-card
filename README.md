@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-View](./images/desktop-view.png)
+![Desktop-View](./design/desktop-view.png)
 
 ### Links
 
